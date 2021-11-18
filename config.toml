@@ -16,7 +16,7 @@ enableEmoji = true
 
 [[params.social]]
     name = 'instagram'
-    url = 'http://instagram.com/skill347_dev'
+    url = 'https://www.instagram.com/skill347_dev/'
 
 [[params.social]]
     name = 'stackoverflow'
