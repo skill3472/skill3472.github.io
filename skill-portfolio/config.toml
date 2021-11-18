@@ -1,3 +1,38 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Maksymilian "Skill" Tym'
+theme = 'hermit-master'
+enableEmoji = true
+
+[author]
+    name = 'Maksymilian Tym'
+
+[params]
+    homeSubtitle = 'Young C# Game Developer'
+
+[[params.social]]
+    name = 'github'
+    url = 'https://github.com/skill3472'
+
+[[params.social]]
+    name = 'instagram'
+    url = 'http://instagram.com/skill347_dev'
+
+[[params.social]]
+    name = 'stackoverflow'
+    url = 'https://stackoverflow.com/users/12069665/skill347'
+
+[[params.social]]
+    name = 'twitch'
+    url = 'https://twitch.tv/skill347'
+
+[[params.social]]
+    name = 'itch'
+    url = 'https://skill347.itch.io/'
+
+[menu]
+
+[[menu.main]]
+    name = 'About'
+    url = 'about/'
+    weight = 10
