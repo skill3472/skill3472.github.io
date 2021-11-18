@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maksymilian &#34;Skill&#34; Tym</title>
-    <link>http://example.org/</link>
+    <link>https://skill3472.github.io/</link>
     <description>Recent content on Maksymilian &#34;Skill&#34; Tym</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://skill3472.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>https://skill3472.github.io/about/</link>
       <pubDate>Thu, 18 Nov 2021 17:30:46 +0100</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://skill3472.github.io/about/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue est, elementum ut faucibus et, dignissim sed nibh. Pellentesque vel ultricies urna. Nullam neque lectus, maximus in odio nec, porttitor feugiat ligula. Nullam porta maximus tellus. Vivamus vitae sapien posuere, eleifend lorem quis, malesuada felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque massa ipsum, pretium a sem viverra, volutpat tincidunt nibh.</description>
     </item>
     
