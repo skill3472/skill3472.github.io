@@ -1,6 +1,10 @@
-.wip {
-
+.wip
+{
 	text-align: center;
 	background-color: cyan;
+}
 
+body
+{
+	background-color: grey;
 }
