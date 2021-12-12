@@ -36,3 +36,8 @@ enableEmoji = true
     name = 'About me'
     url = 'about/'
     weight = 10
+
+[[menu.main]]
+    name = 'Donate'
+    url = 'donate/'
+    weight = 5
