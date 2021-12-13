@@ -40,4 +40,4 @@ enableEmoji = true
 [[menu.main]]
     name = 'Donate'
     url = 'donate/'
-    weight = 5
+    weight = 20
