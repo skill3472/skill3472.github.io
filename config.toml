@@ -15,6 +15,10 @@ enableEmoji = true
     url = 'https://github.com/skill3472'
 
 [[params.social]]
+    name = 'twitter'
+    url = 'https://twitter.com/skill347'
+
+[[params.social]]
     name = 'instagram'
     url = 'https://www.instagram.com/skill347_dev/'
 
