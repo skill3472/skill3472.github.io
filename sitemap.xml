@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://theskill.live/posts/clownpup0/</loc>
+    <lastmod>2022-01-23T01:08:35+01:00</lastmod>
+  </url><url>
+    <loc>https://theskill.live/tags/clownpup/</loc>
+    <lastmod>2022-01-23T01:08:35+01:00</lastmod>
+  </url><url>
+    <loc>https://theskill.live/tags/devlog/</loc>
+    <lastmod>2022-01-23T01:08:35+01:00</lastmod>
+  </url><url>
+    <loc>https://theskill.live/</loc>
+    <lastmod>2022-01-23T01:08:35+01:00</lastmod>
+  </url><url>
+    <loc>https://theskill.live/posts/</loc>
+    <lastmod>2022-01-23T01:08:35+01:00</lastmod>
+  </url><url>
+    <loc>https://theskill.live/tags/</loc>
+    <lastmod>2022-01-23T01:08:35+01:00</lastmod>
+  </url><url>
     <loc>https://theskill.live/donate/</loc>
     <lastmod>2021-12-12T14:45:49+01:00</lastmod>
   </url><url>
@@ -9,9 +27,5 @@
     <lastmod>2021-11-18T17:30:46+01:00</lastmod>
   </url><url>
     <loc>https://theskill.live/categories/</loc>
-  </url><url>
-    <loc>https://theskill.live/</loc>
-  </url><url>
-    <loc>https://theskill.live/tags/</loc>
   </url>
 </urlset>
