@@ -49,3 +49,5 @@ I'm really happy that I got back to this game, I really like the setting and the
 [Little Nightmares](https://en.bandainamcoent.eu/little-nightmares/little-nightmares)
 
 [Fran Bow](http://www.franbow.com/)
+
+[The original Clown Pup game](https://skill347.itch.io/ld48)
