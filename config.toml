@@ -10,6 +10,14 @@ enableEmoji = true
 [params]
     homeSubtitle = 'Young C# Game Developer'
 
+    dateform        = "Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04 -0700"
+
+    code_copy_button = true
+
+
 [[params.social]]
     name = 'github'
     url = 'https://github.com/skill3472'
@@ -40,6 +48,11 @@ enableEmoji = true
     name = 'About me'
     url = 'about/'
     weight = 10
+
+[[menu.main]]
+    name = 'Posts'
+    url = 'posts/'
+    weight = 15
 
 [[menu.main]]
     name = 'Donate'

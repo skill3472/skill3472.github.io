@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maksymilian &#34;Skill&#34; Tym</title>
+    <link>https://theskill.live/</link>
+    <description>Recent content on Maksymilian &#34;Skill&#34; Tym</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://theskill.live/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Donate</title>
+      <link>https://theskill.live/donate/</link>
+      <pubDate>Sun, 12 Dec 2021 14:45:49 +0100</pubDate>
+      
+      <guid>https://theskill.live/donate/</guid>
+      <description>If you enjoy my work, you can donate to my my Monero wallet here: 44etjjnGyJFcu1LnD23siB9Bz7fZUZtqngyJAt5H3URs2ML4TQZ2zqoWXC3qqPsJGyinw3BQM4AUAJrgovhQk8J6SPBJSE6</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://theskill.live/about/</link>
+      <pubDate>Thu, 18 Nov 2021 17:30:46 +0100</pubDate>
+      
+      <guid>https://theskill.live/about/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue est, elementum ut faucibus et, dignissim sed nibh. Pellentesque vel ultricies urna. Nullam neque lectus, maximus in odio nec, porttitor feugiat ligula. Nullam porta maximus tellus. Vivamus vitae sapien posuere, eleifend lorem quis, malesuada felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque massa ipsum, pretium a sem viverra, volutpat tincidunt nibh.</description>
+    </item>
+    
+  </channel>
+</rss>
