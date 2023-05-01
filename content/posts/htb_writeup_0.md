@@ -9,7 +9,7 @@ tags:
   - writeup
 ---
 
-**These are my notes from getting into the "Knowledge Test" machine, from the "Getting Started" academy module in Hack The Box.*
+**These are my notes from getting into the "Knowledge Test" machine, from the "Getting Started" academy module in Hack The Box.**
 
 # Target info
 - Target ip: 10.129.116.132
