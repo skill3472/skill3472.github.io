@@ -1,12 +1,15 @@
 ---
-title: "Htb_writeup_0"
+title: "HTB Getting Started: Knowledge Check Writeup"
 date: 2023-05-01T15:26:31+02:00
 draft: false
 toc: false
 images:
 tags: 
-  - untagged
+  - htb
+  - writeup
 ---
+
+**These are my notes from getting into the "Knowledge Test" machine, from the "Getting Started" academy module in Hack The Box.*
 
 # Target info
 - Target ip: 10.129.116.132
