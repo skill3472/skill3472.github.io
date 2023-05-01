@@ -1,13 +1,13 @@
 ---
-title: "HTB: Getting Started Knowledge Check Writeup"
-date: 2023-05-01T15:56:22+01:00
-draft: false
+title: "Htb_writeup_0"
+date: 2023-05-01T15:26:31+02:00
+draft: true
 toc: false
 images:
 tags: 
-  - htb
-  - writeup
+  - untagged
 ---
+
 # Target info
 - Target ip: 10.129.116.132
 
