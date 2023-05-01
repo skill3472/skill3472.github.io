@@ -1,4 +1,4 @@
-baseURL = '//skill3472.github.io'
+baseURL = 'https://skill3472.github.io'
 languageCode = 'en-us'
 title = 'Maksymilian "Skill" Tym'
 theme = 'hermit-master'
