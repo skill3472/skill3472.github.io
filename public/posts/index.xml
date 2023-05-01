@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on Maksymilian &#34;Skill&#34; Tym</title>
+		<link>https://skill3472.github.io/posts/</link>
+		<description>Recent content in Posts on Maksymilian &#34;Skill&#34; Tym</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<lastBuildDate>Sun, 23 Jan 2022 01:08:35 +0100</lastBuildDate>
+		<atom:link href="https://skill3472.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Clown Pup Devlog #0</title>
+			<link>https://skill3472.github.io/posts/clownpup0/</link>
+			<pubDate>Sun, 23 Jan 2022 01:08:35 +0100</pubDate>
+			
+			<guid>https://skill3472.github.io/posts/clownpup0/</guid>
+			<description>Hi! Welcome to our new game&amp;rsquo;s Devlog, part 0 (tutorial/intro/whatever). What I want to tell you about here is what we&amp;rsquo;re making, why we&amp;rsquo;re making it, and why I&amp;rsquo;m documenting the process here. So, let&amp;rsquo;s dive right in!
+Clown Pup was formerly a Ludum Dare 48 submission of me and a couple of friends. It didn&amp;rsquo;t turn out perfect, but I did like the concept and the art style so we (Skill + Żaba) decided to come back to this game and make it the right way; longer, less buggy and just an enjoyable experience for people.</description>
+			<content type="html"><![CDATA[<p>Hi! Welcome to our new game&rsquo;s Devlog, part 0 (tutorial/intro/whatever). What I want to tell you about here is what we&rsquo;re making, why we&rsquo;re making it, and why I&rsquo;m documenting the process here. So, let&rsquo;s dive right in!</p>
+<p>Clown Pup was formerly a Ludum Dare 48 submission of me and a couple of friends. It didn&rsquo;t turn out perfect, but I did like the concept and the art style so we (Skill + Żaba) decided to come back to this game and make it the right way; longer, less buggy and just an enjoyable experience for people.</p>
+<p>The game was about a clown puppy with a cute party hat on his head, that finds himself in a weird psychedelic forest with scary and gory things happening in it. The puppy doesn&rsquo;t seem to care about that though, he seems to only care about finding his orange. It was a poin&rsquo;n&rsquo;click 2D game, the background was hand-drawn by Nikodem and it had SFX + music made by Marcel Gąsiorowski and Hoody (full credits on my itch.io page).</p>
+<figure class="right"><img src="/pup_og_ss.png"
+         alt="Screenshot from the gamejam version of the game"/><figcaption>
+            <p>Original gamejam Clown Pup screenshot</p>
+        </figcaption>
+</figure>
+
+<p>It was my first try at a point&rsquo;n&rsquo;click game and it shows. It has a lot of bugs and I barely made it work, however, I think the game has a lot of potential and after 8 months from the game jam version release we want to take another shot at it. We have a smaller team for now, but we&rsquo;ll see where the process takes us, maybe someone will join our team at some point.</p>
+<p>This devlog is here for a couple of reasons. Firstly, I want to try writing one! Never did that before, so I&rsquo;m trying something new. Secondly, I want to build a community around this project and this seems like a great way to keep people that might be interested up to date on the project. Lastly, It&rsquo;s a good thing to have when working on the project, so we can look back and see what changed in our previous vision of the project.</p>
+<h3 id="the-pointnclick-genre">The point&rsquo;n&rsquo;click genre</h3>
+<p>The first game I played when I was very little was Machinarium by Amanita Design with my dad, when I was like 5-6 years old and I loved the art style, and the puzzles that were in the game. I don&rsquo;t know what else appealed to me in the whole genre but I loved it since. I remember waiting for Samorost 3 for years, and playing through it as soon as it came out. It was even better than Machinarium, and the previous Samorost games (you should really check Amanita Design out, they make great stuff, go play their games). So, the genre means a lot to me and I always had a sentiment for it.</p>
+<p>Now, making a point&rsquo;n&rsquo;click game is a whole another story, because it&rsquo;s, in a way, different from all the other genres. There are multiple reasons why that is and I linked a great video made by The Point &amp; Click Devlog below, but the main premise is that it&rsquo;s more like a book or a movie than a game. Sure, it&rsquo;s interactive, but people play it for the plot, and the graphics (don&rsquo;t get me wrong, there are a lot of great point&rsquo;n&rsquo;click games that have great mechanics, but generally that&rsquo;s not their main selling point). That makes the process of designing one a whole lot different, since you need to <strong>write it</strong> well, and I&rsquo;m not a professional writer (neither is Żaba). The other problem that comes with it is designing the puzzles, but I started watching some content on that too (made by the same guys, check them out, it&rsquo;s good stuff) and I think it will be easier than <em>the good plot part</em>, mainly because I&rsquo;m the technical type of person, not the creative one and Żaba is an artist, sure, but he&rsquo;s not very experienced with writing too, so we&rsquo;re going to have to learn that.</p>
+<figure class="right"><img src="/pup_concept1.png"
+         alt="Clown Pup in humand hands"/><figcaption>
+            <p>Some fresh concept art</p>
+        </figcaption>
+</figure>
+
+<h3 id="games-games-games">Games games games</h3>
+<p>I think that a key part of making a good game is playing a lot of games. It&rsquo;s like writing or making movies. You can do neither well, without consuming a lot of media of that type. That&rsquo;s why we will be taking inspiration from the design and the style of some of our favourites. My favourite games in the genre are (as stated above) the Amanita Design stuff, particularly Samorost 3, Machinarium and Pilgrims. Żaba&rsquo;s are Little Nightmares and Fran Bow.</p>
+<p>And what do I mean by taking inspiration? No, we won&rsquo;t be making clones of the above games. What we will be doing is looking at the core mechanics and some pieces of the art style, and transforming them to fit our world and help make the game more enjoyable.</p>
+<h3 id="where-are-we-with-the-project">Where are we with the project</h3>
+<p>We just started figuring out the plotline today, I&rsquo;m writing this post to start the documenting process as soon as possible because I care about the project and want the devlog to cover all the stages of our journey. We have some art and we&rsquo;re starting to develop a basic plotline and I will update you on the process whenever we get something meaningful done.</p>
+<h3 id="closing-thoughts">Closing thoughts</h3>
+<p>I&rsquo;m really happy that I got back to this game, I really like the setting and the genre, so this will be a great journey for us and I hope that you will join us and see this game evolve into something great over time.</p>
+<h4 id="sources-and-references">Sources and references</h4>
+<p><a href="https://youtu.be/XUso3zWbDfE">What makes point and click adventure games good? -  The Point &amp; Click Devlog</a></p>
+<p><a href="https://youtu.be/xlQSA9TIS-Q">Puzzle design: How to design point and click adventure game puzzles - The Point &amp; Click Devlog</a></p>
+<p><a href="https://www.amanita-design.net/">Amanita Design</a></p>
+<p><a href="https://en.bandainamcoent.eu/little-nightmares/little-nightmares">Little Nightmares</a></p>
+<p><a href="http://www.franbow.com/">Fran Bow</a></p>
+<p><a href="https://skill347.itch.io/ld48">The original Clown Pup game</a></p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

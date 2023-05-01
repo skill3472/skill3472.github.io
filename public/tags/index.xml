@@ -2,9 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Maksymilian &#34;Skill&#34; Tym</title>
-    <link>https://theskill.live/tags/</link>
+    <link>https://skill3472.github.io/tags/</link>
     <description>Recent content in Tags on Maksymilian &#34;Skill&#34; Tym</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://theskill.live/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jan 2022 01:08:35 +0100</lastBuildDate><atom:link href="https://skill3472.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>clownpup</title>
+      <link>https://skill3472.github.io/tags/clownpup/</link>
+      <pubDate>Sun, 23 Jan 2022 01:08:35 +0100</pubDate>
+      
+      <guid>https://skill3472.github.io/tags/clownpup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devlog</title>
+      <link>https://skill3472.github.io/tags/devlog/</link>
+      <pubDate>Sun, 23 Jan 2022 01:08:35 +0100</pubDate>
+      
+      <guid>https://skill3472.github.io/tags/devlog/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

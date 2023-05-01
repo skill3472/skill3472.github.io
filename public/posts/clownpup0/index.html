@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta itemprop="name" content="Clown Pup Devlog #0">
+<meta itemprop="description" content="Hi! Welcome to our new game&rsquo;s Devlog, part 0 (tutorial/intro/whatever). What I want to tell you about here is what we&rsquo;re making, why we&rsquo;re making it, and why I&rsquo;m documenting the process here. So, let&rsquo;s dive right in!
+Clown Pup was formerly a Ludum Dare 48 submission of me and a couple of friends. It didn&rsquo;t turn out perfect, but I did like the concept and the art style so we (Skill &#43; Żaba) decided to come back to this game and make it the right way; longer, less buggy and just an enjoyable experience for people."><meta itemprop="datePublished" content="2022-01-23T01:08:35+01:00" />
+<meta itemprop="dateModified" content="2022-01-23T01:08:35+01:00" />
+<meta itemprop="wordCount" content="961">
+<meta itemprop="keywords" content="clownpup,devlog," /><meta property="og:title" content="Clown Pup Devlog #0" />
+<meta property="og:description" content="Hi! Welcome to our new game&rsquo;s Devlog, part 0 (tutorial/intro/whatever). What I want to tell you about here is what we&rsquo;re making, why we&rsquo;re making it, and why I&rsquo;m documenting the process here. So, let&rsquo;s dive right in!
+Clown Pup was formerly a Ludum Dare 48 submission of me and a couple of friends. It didn&rsquo;t turn out perfect, but I did like the concept and the art style so we (Skill &#43; Żaba) decided to come back to this game and make it the right way; longer, less buggy and just an enjoyable experience for people." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://skill3472.github.io/posts/clownpup0/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-23T01:08:35+01:00" />
+<meta property="article:modified_time" content="2022-01-23T01:08:35+01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Clown Pup Devlog #0"/>
+<meta name="twitter:description" content="Hi! Welcome to our new game&rsquo;s Devlog, part 0 (tutorial/intro/whatever). What I want to tell you about here is what we&rsquo;re making, why we&rsquo;re making it, and why I&rsquo;m documenting the process here. So, let&rsquo;s dive right in!
+Clown Pup was formerly a Ludum Dare 48 submission of me and a couple of friends. It didn&rsquo;t turn out perfect, but I did like the concept and the art style so we (Skill &#43; Żaba) decided to come back to this game and make it the right way; longer, less buggy and just an enjoyable experience for people."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Clown Pup Devlog #0</title>
+	<link rel="stylesheet" href="https://skill3472.github.io/css/style.min.037b6ee8f8c1baab6a3d0a9da11c3ff18a7552471f16c59fd98538d5ce99208b.css" integrity="sha256-A3tu6PjBuqtqPQqdoRw/8Yp1UkcfFsWf2YU41c6ZIIs=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://skill3472.github.io">Maksymilian &#34;Skill&#34; Tym</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://skill3472.github.io/about/">About me</a>
+				<a href="https://skill3472.github.io/posts/">Posts</a>
+				<a href="https://skill3472.github.io/donate/">Donate</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://github.com/skill3472" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://twitter.com/skill347" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://www.instagram.com/skill347_dev/" target="_blank" rel="noopener me" title="Instagram"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a><a href="https://stackoverflow.com/users/12069665/skill347" target="_blank" rel="noopener me" title="Stackoverflow"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.913 16.041v6.848h17.599v-6.848M7.16 18.696h8.925M7.65 13.937l8.675 1.8M9.214 9.124l8.058 3.758M12.086 4.65l6.849 5.66M15.774 1.111l5.313 7.162"/></svg></a><a href="https://twitch.tv/skill347" target="_blank" rel="noopener me" title="Twitch"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"></path></svg></a><a href="https://skill347.itch.io/" target="_blank" rel="noopener me" title="Itch"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="32" height="32" viewBox="0 0 245.371 220.736"><path d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08C57.534 94.073 72.867 94.073 76.7 94.073zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z" /></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://skill3472.github.io/about/">About me</a></li>
+			<li><a href="https://skill3472.github.io/posts/">Posts</a></li>
+			<li><a href="https://skill3472.github.io/donate/">Donate</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Jan 23, 2022</span></div>
+				<h1>Clown Pup Devlog #0</h1>
+			</header>
+			<div class="content">
+				<p>Hi! Welcome to our new game&rsquo;s Devlog, part 0 (tutorial/intro/whatever). What I want to tell you about here is what we&rsquo;re making, why we&rsquo;re making it, and why I&rsquo;m documenting the process here. So, let&rsquo;s dive right in!</p>
+<p>Clown Pup was formerly a Ludum Dare 48 submission of me and a couple of friends. It didn&rsquo;t turn out perfect, but I did like the concept and the art style so we (Skill + Żaba) decided to come back to this game and make it the right way; longer, less buggy and just an enjoyable experience for people.</p>
+<p>The game was about a clown puppy with a cute party hat on his head, that finds himself in a weird psychedelic forest with scary and gory things happening in it. The puppy doesn&rsquo;t seem to care about that though, he seems to only care about finding his orange. It was a poin&rsquo;n&rsquo;click 2D game, the background was hand-drawn by Nikodem and it had SFX + music made by Marcel Gąsiorowski and Hoody (full credits on my itch.io page).</p>
+<figure class="right"><img src="/pup_og_ss.png"
+         alt="Screenshot from the gamejam version of the game"/><figcaption>
+            <p>Original gamejam Clown Pup screenshot</p>
+        </figcaption>
+</figure>
+
+<p>It was my first try at a point&rsquo;n&rsquo;click game and it shows. It has a lot of bugs and I barely made it work, however, I think the game has a lot of potential and after 8 months from the game jam version release we want to take another shot at it. We have a smaller team for now, but we&rsquo;ll see where the process takes us, maybe someone will join our team at some point.</p>
+<p>This devlog is here for a couple of reasons. Firstly, I want to try writing one! Never did that before, so I&rsquo;m trying something new. Secondly, I want to build a community around this project and this seems like a great way to keep people that might be interested up to date on the project. Lastly, It&rsquo;s a good thing to have when working on the project, so we can look back and see what changed in our previous vision of the project.</p>
+<h3 id="the-pointnclick-genre">The point&rsquo;n&rsquo;click genre<a href="#the-pointnclick-genre" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>The first game I played when I was very little was Machinarium by Amanita Design with my dad, when I was like 5-6 years old and I loved the art style, and the puzzles that were in the game. I don&rsquo;t know what else appealed to me in the whole genre but I loved it since. I remember waiting for Samorost 3 for years, and playing through it as soon as it came out. It was even better than Machinarium, and the previous Samorost games (you should really check Amanita Design out, they make great stuff, go play their games). So, the genre means a lot to me and I always had a sentiment for it.</p>
+<p>Now, making a point&rsquo;n&rsquo;click game is a whole another story, because it&rsquo;s, in a way, different from all the other genres. There are multiple reasons why that is and I linked a great video made by The Point &amp; Click Devlog below, but the main premise is that it&rsquo;s more like a book or a movie than a game. Sure, it&rsquo;s interactive, but people play it for the plot, and the graphics (don&rsquo;t get me wrong, there are a lot of great point&rsquo;n&rsquo;click games that have great mechanics, but generally that&rsquo;s not their main selling point). That makes the process of designing one a whole lot different, since you need to <strong>write it</strong> well, and I&rsquo;m not a professional writer (neither is Żaba). The other problem that comes with it is designing the puzzles, but I started watching some content on that too (made by the same guys, check them out, it&rsquo;s good stuff) and I think it will be easier than <em>the good plot part</em>, mainly because I&rsquo;m the technical type of person, not the creative one and Żaba is an artist, sure, but he&rsquo;s not very experienced with writing too, so we&rsquo;re going to have to learn that.</p>
+<figure class="right"><img src="/pup_concept1.png"
+         alt="Clown Pup in humand hands"/><figcaption>
+            <p>Some fresh concept art</p>
+        </figcaption>
+</figure>
+
+<h3 id="games-games-games">Games games games<a href="#games-games-games" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>I think that a key part of making a good game is playing a lot of games. It&rsquo;s like writing or making movies. You can do neither well, without consuming a lot of media of that type. That&rsquo;s why we will be taking inspiration from the design and the style of some of our favourites. My favourite games in the genre are (as stated above) the Amanita Design stuff, particularly Samorost 3, Machinarium and Pilgrims. Żaba&rsquo;s are Little Nightmares and Fran Bow.</p>
+<p>And what do I mean by taking inspiration? No, we won&rsquo;t be making clones of the above games. What we will be doing is looking at the core mechanics and some pieces of the art style, and transforming them to fit our world and help make the game more enjoyable.</p>
+<h3 id="where-are-we-with-the-project">Where are we with the project<a href="#where-are-we-with-the-project" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>We just started figuring out the plotline today, I&rsquo;m writing this post to start the documenting process as soon as possible because I care about the project and want the devlog to cover all the stages of our journey. We have some art and we&rsquo;re starting to develop a basic plotline and I will update you on the process whenever we get something meaningful done.</p>
+<h3 id="closing-thoughts">Closing thoughts<a href="#closing-thoughts" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>I&rsquo;m really happy that I got back to this game, I really like the setting and the genre, so this will be a great journey for us and I hope that you will join us and see this game evolve into something great over time.</p>
+<h4 id="sources-and-references">Sources and references<a href="#sources-and-references" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p><a href="https://youtu.be/XUso3zWbDfE">What makes point and click adventure games good? -  The Point &amp; Click Devlog</a></p>
+<p><a href="https://youtu.be/xlQSA9TIS-Q">Puzzle design: How to design point and click adventure game puzzles - The Point &amp; Click Devlog</a></p>
+<p><a href="https://www.amanita-design.net/">Amanita Design</a></p>
+<p><a href="https://en.bandainamcoent.eu/little-nightmares/little-nightmares">Little Nightmares</a></p>
+<p><a href="http://www.franbow.com/">Fran Bow</a></p>
+<p><a href="https://skill347.itch.io/ld48">The original Clown Pup game</a></p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://skill3472.github.io/tags/clownpup">clownpup</a></span><span class="tag"><a href="https://skill3472.github.io/tags/devlog">devlog</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>961 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2022-01-23 01:08 &#43;0100</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2023 <a href="https://skill3472.github.io">Maksymilian Tym</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://skill3472.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://skill3472.github.io/js/bundle.min.7d8545daa55d62427355498dd8da13f98ff79a7938ce7d2a5e2ae1ec0de3beb8.js" integrity="sha256-fYVF2qVdYkJzVUmN2NoT+Y/3mnk4zn0qXirh7A3jvrg=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>
