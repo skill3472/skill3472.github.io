@@ -2,30 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://skill3472.github.io/posts/clownpup0/</loc>
+    <loc>https://cv.mtym.me/</loc>
+    <lastmod>2024-10-28T21:39:43+01:00</lastmod>
+  </url><url>
+    <loc>https://cv.mtym.me/tags/htb/</loc>
+    <lastmod>2023-05-01T15:26:31+02:00</lastmod>
+  </url><url>
+    <loc>https://cv.mtym.me/posts/htb_writeup_0/</loc>
+    <lastmod>2023-05-01T15:26:31+02:00</lastmod>
+  </url><url>
+    <loc>https://cv.mtym.me/posts/</loc>
+    <lastmod>2023-05-01T15:26:31+02:00</lastmod>
+  </url><url>
+    <loc>https://cv.mtym.me/tags/</loc>
+    <lastmod>2023-05-01T15:26:31+02:00</lastmod>
+  </url><url>
+    <loc>https://cv.mtym.me/tags/writeup/</loc>
+    <lastmod>2023-05-01T15:26:31+02:00</lastmod>
+  </url><url>
+    <loc>https://cv.mtym.me/posts/clownpup0/</loc>
     <lastmod>2022-01-23T01:08:35+01:00</lastmod>
   </url><url>
-    <loc>https://skill3472.github.io/tags/clownpup/</loc>
+    <loc>https://cv.mtym.me/tags/clownpup/</loc>
     <lastmod>2022-01-23T01:08:35+01:00</lastmod>
   </url><url>
-    <loc>https://skill3472.github.io/tags/devlog/</loc>
+    <loc>https://cv.mtym.me/tags/devlog/</loc>
     <lastmod>2022-01-23T01:08:35+01:00</lastmod>
   </url><url>
-    <loc>https://skill3472.github.io/</loc>
-    <lastmod>2022-01-23T01:08:35+01:00</lastmod>
-  </url><url>
-    <loc>https://skill3472.github.io/posts/</loc>
-    <lastmod>2022-01-23T01:08:35+01:00</lastmod>
-  </url><url>
-    <loc>https://skill3472.github.io/tags/</loc>
-    <lastmod>2022-01-23T01:08:35+01:00</lastmod>
-  </url><url>
-    <loc>https://skill3472.github.io/donate/</loc>
+    <loc>https://cv.mtym.me/donate/</loc>
     <lastmod>2021-12-12T14:45:49+01:00</lastmod>
   </url><url>
-    <loc>https://skill3472.github.io/about/</loc>
+    <loc>https://cv.mtym.me/about/</loc>
     <lastmod>2021-11-18T17:30:46+01:00</lastmod>
   </url><url>
-    <loc>https://skill3472.github.io/categories/</loc>
+    <loc>https://cv.mtym.me/categories/</loc>
   </url>
 </urlset>

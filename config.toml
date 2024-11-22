@@ -23,8 +23,12 @@ enableEmoji = true
     url = 'https://github.com/skill3472'
 
 [[params.social]]
-    name = 'twitter'
-    url = 'https://twitter.com/skill347'
+    name = 'itch'
+    url = 'https://skill347.itch.io/'
+
+[[params.social]]
+    name = 'bsky'
+    url = 'https://bsky.app/profile/mtym.me'
 
 [[params.social]]
     name = 'instagram'
@@ -37,10 +41,6 @@ enableEmoji = true
 [[params.social]]
     name = 'twitch'
     url = 'https://twitch.tv/skill347'
-
-[[params.social]]
-    name = 'itch'
-    url = 'https://skill347.itch.io/'
 
 [menu]
 
