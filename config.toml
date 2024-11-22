@@ -58,3 +58,6 @@ enableEmoji = true
     name = 'Donate'
     url = 'donate/'
     weight = 20
+
+[services.disqus]
+    shortname = '-'
