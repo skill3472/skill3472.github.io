@@ -1,0 +1,6 @@
+<figure{% if class %} class="{{ class }}"{% endif %}>
+  {% if link %}<a href="{{ link }}">{% endif %}
+  <img src="{{ src }}"{% if alt %} alt="{{ alt }}"{% endif %} />
+  {% if link %}</a>{% endif %}
+  {% if caption %}<p>{{ caption }}</p>{% endif %}
+</figure>

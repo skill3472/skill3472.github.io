@@ -1,0 +1,49 @@
+# The URL the site will be built for
+base_url = "https://cv.mtym.me/"
+
+title = "Maksymilian \"Skill\" Tym"
+description = "A computer person"
+default_language = "en"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+
+theme = "hermit_zola"
+
+taxonomies = [
+	{ name = "tags", rss = true }
+]
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+home_subtitle = "A computer person"
+
+hermit_menu = [
+	{ link = "/about", name = "About me" },
+	{ link = "/posts", name = "Posts" },
+	{ link = "/donate", name = "Donate" }
+]
+
+hermit_social = [
+	{ name = "github", link = "https://github.com/skill3472" },
+	{ name = "itch", link = "https://skill347.itch.io/" },
+	{ name = "instagram", link = "https://www.instagram.com/skill347_dev/" },
+    { name = "linkedin", link = "https://linkedin.com/in/skill347" },
+]
+
+[extra.author]
+name = "Maksymilian Tym"
+email = "work@mtym.me"
+
+[extra.disqus]
+enable = false
