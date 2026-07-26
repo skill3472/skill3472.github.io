@@ -1,6 +1,6 @@
 +++
 title = "About me"
-date = 2021-11-18T17:30:46+01:00
+date = 2026-03-12T10:54:00+01:00
 +++
 
 Hey! I’m Maksymilian "Skill" Tym.
