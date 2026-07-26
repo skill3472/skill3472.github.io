@@ -37,12 +37,12 @@ hermit_menu = [
 hermit_social = [
 	{ name = "github", link = "https://github.com/skill3472" },
 	{ name = "itch", link = "https://skill347.itch.io/" },
-	{ name = "instagram", link = "https://www.instagram.com/skill347_dev/" },
+	{ name = "mastodon", link="https://kolektiva.social/@skill" },
     { name = "linkedin", link = "https://linkedin.com/in/skill347" },
 ]
 
 [extra.author]
-name = "Maksymilian Tym"
+name = "Maksymilian \"Skill\" Tym"
 email = "work@mtym.me"
 
 [extra.disqus]
